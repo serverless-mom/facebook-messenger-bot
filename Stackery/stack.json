@@ -38,34 +38,6 @@
           "287f15d5"
         ]
       ]
-    },
-    {
-      "id": "e4c93a62",
-      "type": "errors",
-      "x": 200,
-      "y": 400,
-      "wires": [
-        [
-          "520d194a"
-        ]
-      ]
-    },
-    {
-      "id": "520d194a",
-      "type": "function",
-      "x": 410,
-      "y": 400,
-      "name": "LogErrors",
-      "outputs": 1,
-      "memorySize": 3008,
-      "timeout": 30,
-      "runtime": "nodejs8",
-      "location": "inline",
-      "envVars": {},
-      "entryPoint": "",
-      "wires": [
-        []
-      ]
     }
   ]
 }
