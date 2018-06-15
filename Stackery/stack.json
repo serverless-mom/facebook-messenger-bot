@@ -32,7 +32,7 @@
       "y": 325,
       "name": "",
       "path": "/{message}",
-      "method": "GET",
+      "method": "POST",
       "wires": [
         [
           "287f15d5"
