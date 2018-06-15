@@ -31,7 +31,7 @@
       "x": 195,
       "y": 325,
       "name": "",
-      "path": "/{message}",
+      "path": "/",
       "method": "POST",
       "wires": [
         [
