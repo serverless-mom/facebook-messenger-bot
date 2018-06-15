@@ -1,7 +1,7 @@
 'use strict';
 var VERIFY_TOKEN = "my_awesome_token";
 exports.handler = (event, context, callback) => {
-    
+    console.dir(event.queryStringParameters)
   // process GET request
   if(event.queryStringParameters){
     var queryParams = event.queryStringParameters;
