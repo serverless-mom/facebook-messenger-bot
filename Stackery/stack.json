@@ -1,23 +1,6 @@
 {
   "nodes": [
     {
-      "id": "287f15d5",
-      "type": "function",
-      "x": 480,
-      "y": 205,
-      "name": "chatter",
-      "outputs": 1,
-      "memorySize": 128,
-      "timeout": 30,
-      "runtime": "nodejs",
-      "location": "inline",
-      "envVars": {},
-      "entryPoint": "",
-      "wires": [
-        []
-      ]
-    },
-    {
       "id": "492b43c7",
       "type": "http",
       "x": 197.5,
@@ -34,9 +17,7 @@
       "path": "/",
       "method": "GET",
       "wires": [
-        [
-          "287f15d5"
-        ]
+        []
       ]
     }
   ]
